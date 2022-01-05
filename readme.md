@@ -16,8 +16,8 @@ El proyecto toma información de la Api de Rick and Morty, para mostrar informac
 
 - Correr versión de desarrollo:
 
-- npm run dev
+  - npm run dev
 
 - Compilar versión de Producción:
 
-- npm run build
+  - npm run build
