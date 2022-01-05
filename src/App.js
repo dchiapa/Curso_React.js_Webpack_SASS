@@ -1,4 +1,4 @@
-import "./app.sass";
+import "./App.scss";
 
 const App = () => {
   return (
