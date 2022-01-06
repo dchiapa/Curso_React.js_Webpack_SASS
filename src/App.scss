@@ -1,23 +1,5 @@
-$reactColor: #011826;
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.app {
-  align-items: center;
-  background-color: $reactColor;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  width: 100vw;
-  h1 {
-    font-family: sans-serif;
-    font-size: 3rem;
-    text-transform: uppercase;
-  }
 }
