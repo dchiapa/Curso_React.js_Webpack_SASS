@@ -1,0 +1,58 @@
+@use "../../fonts.scss" as fonts;
+
+.characters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+  width: 100%;
+  .box {
+    background-color: #1f2937;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #d9e5d6;
+    display: flex;
+    margin: 0.6rem;
+    width: 30%;
+    img {
+      object-fit: contain;
+      margin-left: 0.6rem;
+      width: 50%;
+    }
+    .character {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0.6rem;
+      width: 100%;
+      .name {
+        color: #82bf45;
+        font-family: "shlop";
+        font-size: 2rem;
+      }
+      .specie {
+        background-color: #364150;
+        border-radius: 5px;
+        color: #fff;
+        font-family: "shlop";
+        font-size: 1rem;
+        margin: 0.3rem 0;
+        padding: 0.3rem;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .status {
+        background-color: #364150;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 0.6rem;
+        margin: 0.3rem 0;
+        padding: 0.3rem;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1588px) {
+}
