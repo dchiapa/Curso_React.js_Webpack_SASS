@@ -7,4 +7,28 @@
   height: 100%;
   margin: auto;
   width: 80%;
+  @media screen and (max-width: 1588px) {
+    width: 85%;
+  }
+  @media screen and (max-width: 1450px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 1300px) {
+    width: 95%;
+  }
+  @media screen and (max-width: 1230px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 860px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 534px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 444px) {
+    width: 95%;
+  }
+  @media screen and (max-width: 534px) {
+    width: 100%;
+  }
 }

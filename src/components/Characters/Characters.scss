@@ -13,6 +13,15 @@
     display: flex;
     margin: 0.6rem;
     width: 30%;
+    @media screen and( max-width: 1230px) {
+      width: 35%;
+    }
+    @media screen and (max-width: 1080px) {
+      width: 45%;
+    }
+    @media screen and (max-width: 860px) {
+      width: 100%;
+    }
     img {
       object-fit: contain;
       margin-left: 0.6rem;
@@ -27,7 +36,10 @@
       .name {
         color: #82bf45;
         font-family: "shlop";
-        font-size: 2rem;
+        font-size: 2.5rem;
+        @media screen and (max-width: 1588px) {
+          font-size: 2rem;
+        }
       }
       .specie {
         background-color: #364150;
@@ -52,7 +64,4 @@
       }
     }
   }
-}
-
-@media screen and (max-width: 1588px) {
 }
